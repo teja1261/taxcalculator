@@ -1,0 +1,99 @@
+.nav-header {
+  display: flex;
+  justify-content: center;
+  background-color: #f0f0f0;
+  border-bottom: 4px solid #000;
+}
+
+.nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1110px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.heading {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+website-logo {
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .website-logo {
+    font-size: 26px;
+  }
+  .heading {
+    font-size: 26px;
+    font-weight: 700;
+  }
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: flex-end;
+  flex: 1;
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-menu {
+    display: none;
+  }
+}
+
+.nav-link {
+  font-family: 'Roboto';
+  text-decoration: none;
+  margin: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #475569;
+}
+
+.logout-desktop-btn {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 10px;
+  padding: 10px 16px;
+  color: white;
+  background-color: #FF6666;
+  border: none;
+  border-radius: 4px;
+  margin-left: 14px;
+}
+
+@media screen and (max-width: 767px) {
+  .logout-desktop-btn {
+    display: none;
+  }
+}
+
+.logout-mobile-btn {
+  border: none;
+  padding: 0px;
+  background: transparent;
+}
+
+@media screen and (min-width: 768px) {
+  .logout-mobile-btn {
+    display: none;
+  }
+}
+
+.logout-icon {
+  width: 24px;
+}

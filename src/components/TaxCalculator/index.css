@@ -1,0 +1,88 @@
+label{
+    width: 240px;
+    display: inline-block;
+}
+
+.app-container{
+    margin: 0;
+}
+
+.data-form-container{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.form-element{
+    padding: 10px;
+}
+.form-heading{
+    text-align: center;
+}
+.label-text{
+    margin-bottom: 0px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    color: #475569;
+}
+
+.input-field{
+    font-size: 14px;
+    height: 30px;
+    border: 1px solid #d7dfe9;
+    background-color: #e2e8f0;
+    color: #64748b;
+    border-radius: 2px;
+    margin-top: 5px;
+    padding: 8px 16px 8px 16px;
+}
+
+.submit-button{
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+    height: 40px;
+    width: 20%;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    background-color: #0b69ff;
+    border-radius: 8px;
+    border: none;
+}
+
+.bg-col{
+    background-color: aliceblue;
+}
+
+.tax-amount{
+    background-color: #f0f0f0;
+    font-weight: 800;
+    font-size: 32px;
+    width: 100%;
+    text-align: center;
+}
+
+.btn{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 767px) {
+    .submit-button{
+        width: 50%
+    }
+  }
+
+.msg {
+    align-self: start;
+    font-size: 10px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    font-family: 'Roboto';
+    line-height: 16px;
+  }
+  
